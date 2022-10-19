@@ -7,6 +7,7 @@ class CreateArticles < ActiveRecord::Migration[6.1]
       t.integer :author_id
       t.integer :comment_id
       t.integer :like_id
+      t.integer :user_id
       t.integer :bookmark_id
       t.datetime :date_posted
 

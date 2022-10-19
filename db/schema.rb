@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2022_10_19_183859) do
     t.integer "author_id"
     t.integer "comment_id"
     t.integer "like_id"
+    t.integer "user_id"
     t.integer "bookmark_id"
     t.datetime "date_posted"
     t.datetime "created_at", precision: 6, null: false
