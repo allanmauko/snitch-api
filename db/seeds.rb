@@ -29,6 +29,16 @@ After that, I bought a refurbished iPhone SE with 64GB of storage for $165. I ev
  
  Netflix's strength is binge-watching, which means it's good for catching up on TV shows just before the next season begins airing. That's why most of Netflix's library is about one year old. Networks aren't willing to let Netflix load up its library with recent content.",category_id:5,author_id:2, comment_id:5,like_id:5,bookmark_id:5,user_id:1,date_posted:"1st dec 2020")  
 
+ArticleCategory.create(article_id: 1, category_id: 1)
+ArticleCategory.create(article_id: 2, category_id: 2)
+ArticleCategory.create(article_id: 3, category_id: 3)
+ArticleCategory.create(article_id: 4, category_id: 4)
+ArticleCategory.create(article_id: 5, category_id: 5)
 
+Categories.create(author_id: 1)
+Categories.create(author_id: 2)
+Categories.create(author_id: 3)
+Categories.create(author_id: 4)
+Categories.create(author_id: 5)
 
 puts "✅ Done seeding!"
