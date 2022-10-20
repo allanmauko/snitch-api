@@ -1,4 +1,4 @@
-class ApplicationController < Sinatra::base
- set :default_content_type, 'application/json'
- 
-end
+class ApplicationController < ActionController::Base
+    def index
+    end
+ end
