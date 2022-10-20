@@ -29,8 +29,6 @@ After that, I bought a refurbished iPhone SE with 64GB of storage for $165. I ev
  
  Netflix's strength is binge-watching, which means it's good for catching up on TV shows just before the next season begins airing. That's why most of Netflix's library is about one year old. Networks aren't willing to let Netflix load up its library with recent content.",category_id:5,author_id:2, comment_id:5,like_id:5,bookmark_id:5,user_id:1,date_posted:"1st dec 2020")  
 
-
-<<<<<<< HEAD
    Comment.create(comment: "Please can you also make a video on you creating chrome browser and also giving some tips on how to be proficient in JavaScript and also some code problem solving techniques.", article_id: 1, user_id: 1)
    Comment.create(comment: "Sir will you plz make some new react Js easy and beautiful projects that consists of clones and other new website designs.", article_id: 2, user_id: 2)
    Comment.create(comment: "Well, I am successfully created medium clone with help of this video greeaaaatt succes.", article_id: 3, user_id: 3)
@@ -44,7 +42,6 @@ After that, I bought a refurbished iPhone SE with 64GB of storage for $165. I ev
    Like.create(count: 40, article_id: 4, user_id: 4)
    Like.create(count: 50, article_id: 5, user_id: 5)
 
-=======
 
 puts "✅ Done seeding!"
->>>>>>> d3200a05aabf37150449696d3a4118614d6bbcf6
+
