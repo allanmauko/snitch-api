@@ -11,4 +11,8 @@ class ApplicationController < Sinatra::Base
     articleCategories.to_json
   end
 
+  get  "/categories" do
+    categories = Categories.all
+    categories.to_json
+  end
 end
