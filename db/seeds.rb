@@ -19,6 +19,13 @@ Article.create(title:"Don’t Trash Your Old Phone—Give It a Second Life",cont
    Comment.create(comment: "Well, I am successfully created medium clone with help of this video greeaaaatt succes.", article_id: 3, user_id: 3)
    Comment.create(comment: "Can you make a serious flutter tutorial?", article_id: 4, user_id: 4)
    Comment.create(comment: "Hey dude I don't have card to use firebase in need card details what I do help me out?", article_id: 5, user_id:5)
+   
+
+   Bookmark.create(article_id: 1, user_id: 1)
+   Bookmark.create(article_id: 2, user_id: 2)
+   Bookmark.create(article_id: 3, user_id: 3)
+   Bookmark.create(article_id: 4, user_id: 4)
+   Bookmark.create(article_id: 5, user_id: 5)
 
 
 puts "✅ Done seeding!"
