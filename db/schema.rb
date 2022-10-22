@@ -10,18 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_10_20_124647) do
+ActiveRecord::Schema.define(version: 2022_10_20_123552) do
 
   create_table "articles", force: :cascade do |t|
     t.string "title"
     t.string "content"
     t.integer "category_id"
     t.integer "author_id"
-    t.integer "comment_id"
-    t.integer "like_id"
-    t.integer "user_id"
-    t.integer "bookmark_id"
-    t.datetime "date_posted"
+    t.integer "number_of_likes"
+    t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -30,12 +27,6 @@ ActiveRecord::Schema.define(version: 2022_10_20_124647) do
     t.string "comment"
     t.integer "article_id"
     t.integer "user_id"
-  end
-
-  create_table "likes", force: :cascade do |t|
-    t.integer "count"
-    t.integer "user_id"
-    t.integer "article_id"
   end
 
 end

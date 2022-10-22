@@ -5,11 +5,8 @@ class CreateArticles < ActiveRecord::Migration[6.1]
       t.string :content
       t.integer :category_id
       t.integer :author_id
-      t.integer :comment_id
-      t.integer :like_id
-      t.integer :user_id
-      t.integer :bookmark_id
-      t.datetime :date_posted
+      t.integer :number_of_likes
+      t.string :image_url
 
       t.timestamps
     end
