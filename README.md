@@ -1,1 +1,1 @@
-# snitch-api
+# snitch-api for backend
