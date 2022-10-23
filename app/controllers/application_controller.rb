@@ -24,7 +24,7 @@ class ApplicationController < Sinatra::Base
   post"/articles" do
     new_article = Article.create(
       title: params[:title],
-      content: params[:value],
+      content: params[:content],
       image: params[:image],
       number_of_likes: params[:number_of_likes],
       category_id: params[:category_id],
@@ -37,7 +37,7 @@ class ApplicationController < Sinatra::Base
     article = Article.find(params[:id])
     article.update(
       title: params[:title],
-      content: params[:value],
+      content: params[:content],
       image: params[:image],
       number_of_likes: params[:number_of_likes],
       category_id: params[:category_id],
