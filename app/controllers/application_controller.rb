@@ -19,6 +19,10 @@ class ApplicationController < Sinatra::Base
     articles = Article.all
     articles.to_json(include: :comments)
   end
+  get "/articles/:id" do
+    articles = Article.find(params[:id])
+    articles.to_json(include: :comments)
+  end
 
 
   post"/articles" do
